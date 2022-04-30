@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!--  red container  -->
+    <div class="red-container">
+        <!-- smaller red -->
+        <div class="smaller-red" >
+            <!-- player health -->
+            <div class="player">
+                <div class="player-hp-bar" ></div>
+                <div class="player-dmg" id="playerHealth"></div>
+            </div>
+            <!-- timer -->
+            <div class="timer-bar" id="timer"></div>
+            <!-- enemy health -->
+            <div class="enemy">
+                <div class="enemy-hp-bar" ></div>
+                <div class="enemy-dmg" id="enemyHealth"></div>
+            </div>
+        </div>
+        <div class="result" id="result"></div>
+        <canvas id="canvas"></canvas>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/utiils.js"></script>
+    <script src="js/classes.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
